@@ -4,7 +4,7 @@ Sort your Gmail inbox into **Important**, **General** and **Ads**, clean it up w
 
 Inbox Trays is a static web app: plain HTML, CSS and JavaScript with no build step, no server and no database. It talks to the Gmail API directly from your browser, so your email never passes through anyone else's server.
 
-![Inbox Trays screenshot (sample data)](docs/screenshot.png)
+![Inbox Trays screenshot (sample data)](Showcase.jpg)
 
 ## Features
 
@@ -82,7 +82,8 @@ src/gmail.js          Gmail REST client + Google sign-in
 src/classify.js       sorting rules (pure functions)
 src/styles.css        light/dark theme
 test/                 unit tests + browser smoke test (mocked Gmail)
-docs/                 setup guide, screenshot
+Showcase.jpg          screenshot
+docs/                 setup guide
 ```
 
 ## Development
