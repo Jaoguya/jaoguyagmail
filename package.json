@@ -1,0 +1,27 @@
+{
+  "name": "inbox-trays",
+  "version": "1.0.0",
+  "description": "Sort your Gmail inbox into Important, General and Ads, clean up with saved searches, and recover anything with one click. Runs entirely in the browser.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Tagrid Chongkolrattanapond",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test test/*.test.js",
+    "test:browser": "node test/smoke.browser.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "gmail",
+    "email",
+    "inbox",
+    "productivity",
+    "static-site"
+  ],
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  }
+}
